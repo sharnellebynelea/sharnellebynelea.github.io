@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f1e7">
+<meta name="description" content="Découvrez la collection de bijoux Sharnelle by Nélléa.">
+<title>Sharnelle by Nélléa — Boutique</title>
+<style>
+:root{--cream:#fbf8f2;--ivory:#f1e8da;--gold:#b58a50;--gold-dark:#76552e;--ink:#29231d;--muted:#82776b;--line:#e8dece}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif}
+a{color:inherit;text-decoration:none}.top{background:#3b3025;color:#fff;text-align:center;padding:9px;font-size:12px;letter-spacing:.5px}
+header{max-width:1180px;margin:auto;padding:20px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{font:26px Georgia,serif;letter-spacing:2px;color:#6e4c27}.brand small{display:block;text-align:right;font:italic 15px Georgia,serif;letter-spacing:0}
+nav{display:flex;gap:22px;font-size:14px}.cartbtn,.goldbtn{border:0;border-radius:3px;padding:12px 17px;background:var(--gold-dark);color:white;cursor:pointer}
+.hero{background:linear-gradient(90deg,#f4ebdf 0%,#f4ebdfed 48%,#f4ebdf66),url('assets/S3.jpg') center 40%/cover;min-height:380px;display:flex;align-items:center}
+.hero-inner{max-width:1180px;margin:auto;padding:55px 20px;width:100%}.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--gold-dark);font-size:11px}
+h1{font:clamp(38px,6vw,66px)/1.05 Georgia,serif;max-width:570px;margin:16px 0}.hero p{color:#66594b;line-height:1.7;max-width:440px}
+.section{max-width:1180px;margin:auto;padding:55px 20px}.section h2{text-align:center;font:36px Georgia,serif;margin:0 0 8px}.sub{text-align:center;color:var(--muted);margin:0 0 30px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{background:white;border:1px solid var(--line);padding:9px 14px;border-radius:2px;cursor:pointer}.filter.active{background:var(--gold-dark);color:white}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:white;border:1px solid var(--line);min-width:0}.photo{height:250px;background:#eee3d4;overflow:hidden;position:relative}.photo img{width:100%;height:100%;object-fit:cover;display:block}.ref{position:absolute;top:10px;left:10px;background:#fffdf7eF;padding:6px 9px;font-size:11px;letter-spacing:1px}
+.info{padding:14px}.info h3{font:18px Georgia,serif;margin:0 0 6px}.category{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}.price{font-weight:bold;font-size:17px;margin:12px 0}.add{width:100%;padding:11px;border:1px solid var(--gold-dark);background:white;color:var(--gold-dark);cursor:pointer}.add:hover{background:var(--gold-dark);color:white}
+footer{background:#30271f;color:#f8efe2;text-align:center;padding:38px 20px}footer .brand{color:#f8efe2}footer p{font-size:13px;color:#d4c6b4}
+.cartpanel{position:fixed;right:0;top:0;bottom:0;width:min(420px,100%);background:#fffdf9;z-index:10;box-shadow:-10px 0 30px #0002;padding:22px;transform:translateX(110%);transition:.25s;overflow:auto}.cartpanel.open{transform:translateX(0)}.carthead{display:flex;justify-content:space-between;align-items:center}.cartline{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:13px 0}.muted{color:var(--muted);font-size:13px}.close{border:0;background:transparent;font-size:25px;cursor:pointer}.checkout{width:100%;margin-top:18px;padding:14px;background:var(--gold-dark);color:white;border:0}
+.overlay{display:none;position:fixed;inset:0;background:#0005;z-index:9}.overlay.open{display:block}
+.note{background:#f3ecdf;padding:16px;text-align:center;color:#655744;font-size:13px;line-height:1.6;margin-top:30px}
+@media(max-width:850px){nav{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo{height:220px}.hero{min-height:320px}}
+@media(max-width:430px){header{padding:15px}.brand{font-size:22px}.hero-inner{padding:42px 18px}.grid{gap:10px}.photo{height:175px}.info{padding:10px}.info h3{font-size:15px}.price{font-size:15px}.section{padding:40px 14px}}
+</style></head>
+<body>
+<div class="top">SHARNELLE BY NÉLLÉA · L’ÉLÉGANCE AU QUOTIDIEN</div>
+<header><a class="brand" href="#">SHARNELLE<small>by Nélléa</small></a><nav><a href="#">Accueil</a><a href="#collection">Collection</a><a href="#contact">Contact</a></nav><button class="cartbtn" id="openCart">Panier (<span id="count">0</span>)</button></header>
+<section class="hero"><div class="hero-inner"><div class="eyebrow">Collection bijoux · Côte d’Ivoire</div><h1>La beauté des détails, l’élégance en signature.</h1><p>Découvrez des bijoux délicats, pensés pour accompagner chaque moment. Choisissez vos modèles et composez votre sélection.</p><a class="goldbtn" href="#collection">Découvrir la collection</a></div></section>
+<main><section class="section" id="collection"><h2>La collection</h2><p class="sub">Des pièces choisies avec soin pour révéler votre élégance.</p>
+<div class="toolbar"><div class="filters"><button class="filter active" data-filter="Tous">Tout voir</button><button class="filter" data-filter="Colliers simples">Colliers simples</button><button class="filter" data-filter="Ensembles">Ensembles</button><button class="filter" data-filter="Bracelets">Bracelets</button></div><span class="muted">19 modèles référencés · FCFA</span></div>
+<div class="grid" id="products"></div><div class="note">Tarifs confirmés : colliers simples 12 500 FCFA · ensembles 12 500 FCFA · bracelets 5 000 FCFA.<br>Les références S20 à S29 seront ajoutées après validation de leurs photos et catégories.</div>
+</section></main>
+<footer id="contact"><div class="brand">SHARNELLE<small>by Nélléa</small></div><p>Boutique de bijoux · Côte d’Ivoire</p><p>© <span id="year"></span> Sharnelle by Nélléa</p></footer>
+<div class="overlay" id="overlay"></div><aside class="cartpanel" id="cart"><div class="carthead"><h2>Votre panier</h2><button class="close" id="closeCart">×</button></div><div id="cartItems"></div><h3 id="total">Total : 0 FCFA</h3><p class="muted">Prototype catalogue : le paiement en ligne n’est pas encore activé. Nous connecterons le paiement Jèko après validation des accès API et du serveur sécurisé.</p><button class="checkout" id="checkout">Continuer (paiement à venir)</button></aside>
+<script>
+const products = [{"ref": "S1", "name": "Collier barre dorée", "category": "Colliers simples", "price": 12500, "image": "S1.jpg"}, {"ref": "S2", "name": "Collier barre délicate", "category": "Colliers simples", "price": 12500, "image": "S2.jpg"}, {"ref": "S3", "name": "Collier Arbre de vie", "category": "Colliers simples", "price": 12500, "image": "S3.jpg"}, {"ref": "S4", "name": "Collier Arbre de vie élégant", "category": "Colliers simples", "price": 12500, "image": "S4.jpg"}, {"ref": "S5", "name": "Collier chevron zircon", "category": "Colliers simples", "price": 12500, "image": "S5.jpg"}, {"ref": "S6", "name": "Collier infini", "category": "Colliers simples", "price": 12500, "image": "S6.jpg"}, {"ref": "S7", "name": "Collier cœur zircon", "category": "Colliers simples", "price": 12500, "image": "S7.jpg"}, {"ref": "S8", "name": "Collier cœur ouvert", "category": "Colliers simples", "price": 12500, "image": "S8.jpg"}, {"ref": "S9", "name": "Collier double cœur", "category": "Colliers simples", "price": 12500, "image": "S9.jpg"}, {"ref": "S10", "name": "Collier double chaîne croix et goutte", "category": "Ensembles", "price": 12500, "image": "S10.jpg"}, {"ref": "S11", "name": "Collier trèfles", "category": "Colliers simples", "price": 12500, "image": "S11.jpg"}, {"ref": "S12", "name": "Collier courbe zircon", "category": "Colliers simples", "price": 12500, "image": "S12.jpg"}, {"ref": "S13", "name": "Ensemble nœud papillon", "category": "Ensembles", "price": 12500, "image": "S13.jpg"}, {"ref": "S14", "name": "Collier nœud papillon", "category": "Ensembles", "price": 12500, "image": "S14.jpg"}, {"ref": "S15", "name": "Ensemble feuille et perle", "category": "Ensembles", "price": 12500, "image": "S15.jpg"}, {"ref": "S16", "name": "Collier goutte pendante", "category": "Ensembles", "price": 12500, "image": "S16.jpg"}, {"ref": "S17", "name": "Ensemble cœur", "category": "Ensembles", "price": 12500, "image": "S17.jpg"}, {"ref": "S18", "name": "Collier pendentif doré", "category": "Colliers simples", "price": 12500, "image": "S18.jpg"}, {"ref": "S19", "name": "Ensemble médaillon nacré", "category": "Ensembles", "price": 12500, "image": "S19.jpg"}];
+let cart = [];
+const fmt = n => new Intl.NumberFormat('fr-FR').format(n)+' FCFA';
+function render(filter='Tous'){
+ const root=document.getElementById('products'); root.innerHTML='';
+ products.filter(p=>filter==='Tous'||p.category===filter).forEach(p=>{
+  const el=document.createElement('article');el.className='card';
+  el.innerHTML=`<div class="photo"><span class="ref">${p.ref}</span><img src="assets/${p.image}" alt="${p.name}" loading="lazy"></div><div class="info"><div class="category">${p.category}</div><h3>${p.name}</h3><div class="price">${fmt(p.price)}</div><button class="add" data-add="${p.ref}">Ajouter au panier</button></div>`;
+  root.appendChild(el);
+ });
+}
+function updateCart(){
+ document.getElementById('count').textContent=cart.reduce((a,x)=>a+x.qty,0);
+ const box=document.getElementById('cartItems');box.innerHTML='';
+ cart.forEach(item=>{const row=document.createElement('div');row.className='cartline';row.innerHTML=`<div><b>${item.name}</b><div class="muted">${item.ref} · ${fmt(item.price)} × ${item.qty}</div></div><div><button data-minus="${item.ref}">−</button> <button data-plus="${item.ref}">+</button></div>`;box.appendChild(row)});
+ document.getElementById('total').textContent='Total : '+fmt(cart.reduce((a,x)=>a+x.price*x.qty,0));
+}
+document.getElementById('products').addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(!b)return;const p=products.find(x=>x.ref===b.dataset.add);const old=cart.find(x=>x.ref===p.ref);old?old.qty++:cart.push({...p,qty:1});updateCart();openCart()});
+function openCart(){document.getElementById('cart').classList.add('open');document.getElementById('overlay').classList.add('open')}
+function closeCart(){document.getElementById('cart').classList.remove('open');document.getElementById('overlay').classList.remove('open')}
+document.getElementById('openCart').onclick=openCart;document.getElementById('closeCart').onclick=closeCart;document.getElementById('overlay').onclick=closeCart;
+document.getElementById('cartItems').addEventListener('click',e=>{let ref=e.target.dataset.plus||e.target.dataset.minus;if(!ref)return;let p=cart.find(x=>x.ref===ref);if(e.target.dataset.plus)p.qty++;else p.qty--;if(p.qty<=0)cart=cart.filter(x=>x.ref!==ref);updateCart()});
+document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(!b)return;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));render(b.dataset.filter)});
+document.getElementById('checkout').onclick=()=>alert('Le paiement en ligne sera activé après connexion sécurisée de Jèko. Aucune transaction ne sera lancée depuis cette maquette.');
+document.getElementById('year').textContent=new Date().getFullYear();render();updateCart();
+</script></body></html>

@@ -1,0 +1,154 @@
+[
+  {
+    "ref": "S1",
+    "name": "Collier barre dorée",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S1.jpg",
+    "description": "Modèle S1 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S2",
+    "name": "Collier barre délicate",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S2.jpg",
+    "description": "Modèle S2 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S3",
+    "name": "Collier Arbre de vie",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S3.jpg",
+    "description": "Modèle S3 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S4",
+    "name": "Collier Arbre de vie élégant",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S4.jpg",
+    "description": "Modèle S4 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S5",
+    "name": "Collier chevron zircon",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S5.jpg",
+    "description": "Modèle S5 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S6",
+    "name": "Collier infini",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S6.jpg",
+    "description": "Modèle S6 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S7",
+    "name": "Collier cœur zircon",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S7.jpg",
+    "description": "Modèle S7 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S8",
+    "name": "Collier cœur ouvert",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S8.jpg",
+    "description": "Modèle S8 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S9",
+    "name": "Collier double cœur",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S9.jpg",
+    "description": "Modèle S9 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S10",
+    "name": "Collier double chaîne croix et goutte",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S10.jpg",
+    "description": "Modèle S10 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S11",
+    "name": "Collier trèfles",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S11.jpg",
+    "description": "Modèle S11 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S12",
+    "name": "Collier courbe zircon",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S12.jpg",
+    "description": "Modèle S12 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S13",
+    "name": "Ensemble nœud papillon",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S13.jpg",
+    "description": "Modèle S13 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S14",
+    "name": "Collier nœud papillon",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S14.jpg",
+    "description": "Modèle S14 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S15",
+    "name": "Ensemble feuille et perle",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S15.jpg",
+    "description": "Modèle S15 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S16",
+    "name": "Collier goutte pendante",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S16.jpg",
+    "description": "Modèle S16 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S17",
+    "name": "Ensemble cœur",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S17.jpg",
+    "description": "Modèle S17 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S18",
+    "name": "Collier pendentif doré",
+    "category": "Colliers simples",
+    "price": 12500,
+    "image": "S18.jpg",
+    "description": "Modèle S18 de la collection Sharnelle by Nélléa."
+  },
+  {
+    "ref": "S19",
+    "name": "Ensemble médaillon nacré",
+    "category": "Ensembles",
+    "price": 12500,
+    "image": "S19.jpg",
+    "description": "Modèle S19 de la collection Sharnelle by Nélléa."
+  }
+]
